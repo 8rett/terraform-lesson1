@@ -21,3 +21,15 @@ variable "web_server_address_prefix" {
 variable "web_server_name" {
   type = string
 }
+
+variable "environment" {
+  type = string
+}
+
+variable "vm_username" {
+  type = string
+}
+
+variable "vm_password" {
+  type = string
+}
